@@ -13,15 +13,19 @@ Define scale and rotation by adding suffixes to the layer name.
 ex.
 - 'thisislayername #s0.5' *(scale = 50%)*
 - 'thisislayername #s0.8 #r-12' *(scale = 80%, rotation = -12 degree)*
-* Note: Suffix is case-sensitive.*
+
+*Note: Suffix is case-sensitive.*
 
 ## How to use group as slot
 Adding suffix ' #SLOT' to the group name will export group as a slot, and each layer in the group will export as an attachment(PNG).
-* Note: Suffix is case-sensitive.*
+
+*Note: Suffix is case-sensitive.*
 
 ## How to use '_ROOT' as origin
 Create a layer named '_ROOT', and draw a dot at the origin position.
 To prevent exporting '_ROOT' layer, you can hide the layer or enable 'Ignore starts with an underscore'.
+
+*Note: Layer name is case-sensitive.*
 
 ## Release notes
 
