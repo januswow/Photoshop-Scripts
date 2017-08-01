@@ -59,7 +59,7 @@ v1.4.0
 2. Fixed incorrect JSON data when there is only one layer in the slot.
 3. Fixed 'use ruler origin as 0,0'.
 4. JSON data now include layer's blend mode.
-5. JSON data now include layer's opacity (opacity and fill opacity).
+5. JSON data now include layer's opacity.
 6. Can now set resample method for resizing.
 
 ### Original Version by NathanSweet
