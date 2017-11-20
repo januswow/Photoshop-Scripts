@@ -62,5 +62,23 @@ v1.4.0
 5. JSON data now include layer's opacity.
 6. Can now set resample method for resizing.
 
+v1.4.1
+- Fixed group with mask bug in PS CS6.(Merge group with mask on CS6 will delete pixels out of canvas.)
+
+v1.5
+- Add trim away settings.
+- Now have multi-languages(English, Traditional Chinese, Simplified Chinese).
+- Fixed layer's opacity function. (Incorrect opacity value calculation and forgot to reset layer's opacity to 100.)
+- Fixed failure of writing blendmode when layer has custom suffixes. (Record the wrong layer name, need to record in clean layer name.)
+- Fixed JSON format.
+- Fixed write template slot to default skin only.
+- Fixed wrong display order with default skin(All slots in default skin will go on top of skins).
+     (But disable the fix "Fixed wrong slot order while has skins." in v1.3.0, forgot what actually the bug is...)
+     
+v1.5.1
+- Can resample to screen dpi (72dpi) automatically.
+- Close the temporarily document for merging gourps immediately.
+- More resample medthods.
+
 ### Original Version by NathanSweet
 https://gist.github.com/NathanSweet/c8e2f6e1d79dedd56e8c
